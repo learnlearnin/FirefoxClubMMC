@@ -34,3 +34,15 @@ h1 {
 #back:before{
   content: '<-';
 }
+
+#installbutton{
+  display: none;
+  text-align: center;
+  background-color: red;
+  margin: 5px auto;
+  padding: 5px; 
+}
+#installbutton a{
+  text-decoration: none;
+  color: yellow;
+}
