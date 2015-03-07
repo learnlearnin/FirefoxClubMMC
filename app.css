@@ -1,0 +1,35 @@
+body{
+  background-color: palegoldenrod;
+}
+h1 {
+  color: orange;
+}
+
+#mainmenu {
+  list-style: none;
+  text-align: center;
+}
+
+#mainmenu li {
+  margin: 5px auto;
+  padding: 5px;
+  background-color: blue;
+}
+
+#mainmenu li a {
+  text-decoration: none;
+  color: white;
+}
+
+#back {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background-color: grey;
+  border-radius: 5px;
+  
+}
+
+#back:before{
+  content: '<-';
+}
