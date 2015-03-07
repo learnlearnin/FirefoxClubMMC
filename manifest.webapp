@@ -1,5 +1,6 @@
 {
   "name": "FirefoxClubMMC",
+  "version": "0.2",
   "description": "The Official app of Mysore Medical College's Firefox Club",
   "launch_path": "/FirefoxClubMMC/index.html",
   "icons": {
