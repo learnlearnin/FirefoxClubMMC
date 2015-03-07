@@ -39,10 +39,8 @@ h1 {
   display: none;
   text-align: center;
   background-color: red;
+  color: yellow;
   margin: 5px auto;
   padding: 5px; 
-}
-#installbutton a{
-  text-decoration: none;
-  color: yellow;
+  cursor: pointer;
 }

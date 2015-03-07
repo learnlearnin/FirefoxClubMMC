@@ -5,7 +5,7 @@ window.addEventListener("load", function() {
 if (navigator.mozApps) {
 	console.log("mozilla");
 	var request = navigator.mozApps.checkInstalled("http://learnlearn.in/FirefoxClubMMC/manifest.webapp");
-	//var request = navigator.mozApps.checkInstalled("http://localhost:8000/manifest.webapp");
+	//var request = navigator.mozApps.checkInstalled("http://localhost:8000/FirefoxClubMMC/manifest.webapp");
 	request.onsuccess = function() {
 	  if (request.result) {
 	    console.log('installed');
@@ -14,19 +14,20 @@ if (navigator.mozApps) {
 	    var installbutton=document.getElementById('installbutton');
 	    installbutton.style.display="block";
 	    installbutton.addEventListener('click', function(){
+	    	installbutton.innerHTML="Downloading...";
 	    	var installrequest = navigator.mozApps.install("http://learnlearn.in/FirefoxClubMMC/manifest.webapp");
 			installrequest.onsuccess = function() {
-			  alert("Congrats, you can use the app directly from your device now");
+			  installbutton.innerHTML="Installed!";
 			};
 			installrequest.onerror = function() {
-			  alert("Whoops! Error: " + this.error.name)
+			  installbutton.innerHTML="Whoops! Error: " + this.error.name;
 			};
 
 	    });
 	  }
 	};
 	request.onerror = function(e) {
-	  alert('Error checking installation status: ' + request.error.name);
+	  console.log('Error checking installation status: ' + request.error.name);
 	};
 
 
