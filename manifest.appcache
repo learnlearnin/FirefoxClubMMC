@@ -1,6 +1,10 @@
 CACHE MANIFEST
 app.js
 app.css
+index.html
+join.html
+members.html
+motivation.html
 
 FALLBACK:
 / offline.html
