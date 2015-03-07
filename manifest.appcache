@@ -1,5 +1,11 @@
 CACHE MANIFEST
+
+CACHE
+app.js
+app.css
+
 FALLBACK:
 / /FirefoxClubMMC/offline.html
+
 NETWORK:
 *
