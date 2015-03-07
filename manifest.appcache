@@ -3,7 +3,7 @@ app.js
 app.css
 
 FALLBACK:
-/ /FirefoxClubMMC/offline.html
+/ offline.html
 
 NETWORK:
 *
