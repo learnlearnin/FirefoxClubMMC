@@ -1,12 +1,12 @@
 {
   "name": "FirefoxClubMMC",
   "description": "The Official app of Mysore Medical College's Firefox Club",
-  "launch_path": "/index.html",
+  "launch_path": "/FirefoxClubMMC/index.html",
   "icons": {
-    "16": "/icons/FFxclubMMC16.png",
-    "48": "/icons/FFxclubMMC48.png",
-    "60": "/icons/FFxclubMMC60.png",
-    "128": "/icons/FFxclubMMC.png"
+    "16": "/FirefoxClubMMC/icons/FFxclubMMC16.png",
+    "48": "/FirefoxClubMMC/icons/FFxclubMMC48.png",
+    "60": "/FirefoxClubMMC/icons/FFxclubMMC60.png",
+    "128": "/FirefoxClubMMC/icons/FFxclubMMC.png"
   },
   "type": "web",
   "permissions": {}
